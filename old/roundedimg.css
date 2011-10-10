@@ -1,0 +1,39 @@
+#imagewrapper a img {
+border: none;
+}
+
+#imagewrapper {
+position: relative;
+float: left;
+}
+
+#imagewrapper span {
+position: absolute;
+z-index: 2;
+height: 12px;
+width: 12px;
+}
+
+.curve1 {
+background: transparent url(/roundedimages/topright.gif) top right no-repeat;
+top: 0;
+right: 0;
+}
+
+.curve2 {
+background: transparent url(/roundedimages/topleft.gif) top left no-repeat;
+top: 0;
+left: 0;
+}
+
+.curve3 {
+background: transparent url(/roundedimages/bottomright.gif) bottom right no-repeat;
+bottom: 0;
+right: 0;
+}
+
+.curve4 {
+background: transparent url(/roundedimages/bottomleft.gif) bottom left no-repeat;
+bottom: 0;
+left: 0;
+}

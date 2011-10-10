@@ -1,0 +1,40 @@
+<STYLE TYPE="text/css">
+<!--
+/**************************************************************
+********* Formatting For Month Table and Text *****************
+**************************************************************/
+
+A	{ font-family:arial, helvetica; color:#6296e4; text-decoration:none; font-weight:bold; }
+SPAN	{ font-family:arial, helvetica }
+TD     	{ font-family:arial, helvetica }
+BODY	{ background-color:#ffffff; }
+
+/**** month and year header at top of calendar ****/
+.date_header	{ font-size:16px; font-family:arial, helvetica; font-weight:bold; color:#6296e4; }
+
+/**** color and size of calendar cells.  ****/
+.day_cell	{ background-color:#e8e8e8; height:80; width: 95; }
+.empty_day_cell	{ background-color:#ffffff; height:80; width: 95; }
+.today_cell	{ background-color:#f5f4ed; height:80; width: 95; }
+
+/**** day number in upper left corner of each cell ****/
+.day_number	{ font-size:10px; font-family:verdana, arial, helvetica; color:#000; padding:2px; }
+
+/**** title_txt is the text for each post on main page ****/
+.title_txt		{ font-size:10px; font-family:verdana, arial, helvetica; color:#000; padding:2px; }
+.title_txt A:link	{ color:#00F; text-decoration:none; font-weight:bold; }
+.title_txt A:active	{ color:#00F; text-decoration:none; font-weight:bold; }
+.title_txt A:visited	{ color:#00F; text-decoration:none; font-weight:bold; }
+.title_txt A:hover	{ color:#00F; text-decoration:none; font-weight:bold; }
+
+/**** time line under title text when event time given ****/
+.time_str	{ font-size:9px; font-family:arial, helvetica }
+
+/**** column headers or days of the week ****/
+.column_header	{ background-color:#6296e4; font-size:12px; font-family:arial, helvetica; color:#FFFFFF; font-weight:bold; text-align:center; padding:5px 0; }
+
+/**** footprint text ****/
+.footprint 	{ font-size:10px; font-family:verdana, arial, helvetica; color:#000000; font-weight:bold; }
+.footprint A	{ font-size:10px; font-family:verdana, arial, helvetica; color:#000000; font-weight:bold; text-decoration:none; }
+// end hiding -->
+</STYLE>

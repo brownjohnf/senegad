@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+div#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+img#banner {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+
+ul#nav {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background-color: #006600;
+	color: #FFFFFF;
+	font-family: tahoma, verdana, geneva, arial, helvetica, sans-serif;
+	font-size: .75em;
+	letter-spacing: 2px;
+}
+
+ul#nav li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+ul#nav li a
+{
+padding: 0.2em 12px;
+background-color: #339900;
+color: #FFFFFF;
+text-decoration: none;
+float: left;
+border-right: 1px solid #94B473;
+width: auto;
+}
+
+ul#nav li:first-child a {
+	border-left: 1px solid #94b473;
+}
+
+ul#nav li a:hover
+{
+background-color: #cc6600;
+color: #FFFFFF;
+}
+
+div#content {
+	clear: both;
+	//width: 100%;
+	margin: 0;
+	padding: 15px;
+	background-color: white;
+}
+
+body#home #nav-home a,
+body#pcgad #nav-pcgad a,
+body#scholarship #nav-scholarship a,
+body#cases #nav-cases a,
+body#traore #nav-traore a,
+body#forpcv #nav-forpcv a,
+body#calendar #nav-calendar a,
+body#links #nav-links a,
+body#donate #nav-donate a {
+	background-color: #cc6600;
+	color: white;
+}
+
+///////////////
+
+body {
+	background-color: black;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+
+h3	{
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px
+}
+
+ul {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+#floatright, .floatright {
+float: right;
+margin: 5px 5px 5px 5px;
+}
+
+#floatleft, .floatleft {
+float: left;
+margin: 5px 5px 5px 5px;
+}

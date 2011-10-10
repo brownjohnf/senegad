@@ -1,0 +1,237 @@
+body { 
+  background-color: #dee6f1; 
+  margin: 0px;
+}
+
+/* MAIN OUTER LAYOUT */
+table.main {
+  height:100%;
+  background-color:#fff;
+  width:100%;
+}
+
+td.leftgradient {
+  background-image: url('images/main_left_gradient.gif');
+  background-repeat: repeat-y;
+  width:101px;
+  
+}
+
+td.maincontent {
+  vertical-align:top;
+  text-align:center;
+}
+
+td.rightgradient {
+  background-image: url('images/main_right_gradient.gif');
+  background-repeat: repeat-y;
+  width:100px;
+}
+
+
+/* MAIN OUTER CONTENT LAYOUT */
+table.content_table {
+  background-color: #fff;
+  width:100%;
+}
+
+td.banner {
+  border-top: 1px solid #6296e4;
+  border-bottom: 1px solid #6296e4;
+  width:100%;
+}
+
+td.link {
+  padding:2px 0 10px 0;
+}
+
+.navlink { 
+  border:none;
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+}
+
+.navlink:hover { 
+  border:none;
+  filter:alpha(opacity=80);
+  -moz-opacity:0.8;
+}
+
+#footer {
+  border-top: 1px solid #6296e4;
+  font-family: Verdana;
+  font-size: 10px;
+  color: #6296e4;
+  padding:5px 0;
+  z-index:10;
+}
+
+
+/* SUBCONTENT BOXES */
+table.contentbox{
+  width:100%;
+}
+
+.content_text {
+  width:95%;
+  padding:10px;
+  color: #6296e4;
+  line-height:1.2;
+}
+
+td.content_bottom_border {
+  background-image: url('images/content_bottom_border.gif');
+  background-repeat: repeat-x;
+  height:18px;
+}
+
+td.content_left_border {
+  background-image: url('images/content_left_border.gif');
+  background-repeat: repeat-y;
+  width:30px;
+}
+
+td.content_right_border {
+  background-image: url('images/content_right_border.gif');
+  background-repeat: repeat-y;
+  width:14px;
+}
+
+td.content_top_border {
+  background-image: url('images/content_top_border.gif');
+  background-repeat: repeat-x;
+  height:21px;
+}
+
+td.content_br_corner {
+  background-image: url('images/content_br_corner.gif');
+  background-repeat: none;
+  width:14px;
+  height:18px;
+}
+
+td.content_bl_corner {
+  background-image: url('images/content_bl_corner.gif');
+  background-repeat: none;
+  width:30px;
+  height:18px;
+}
+
+td.content_tr_corner {
+  background-image: url('images/content_tr_corner.gif');
+  background-repeat: none;
+  width:14px;
+  height:21px;
+}
+
+td.spacer {
+  height:1px;
+}
+
+.mainlist { 
+  color: #6296e4;
+}
+
+/* UPCOMING EVENTS */
+#upcomingevents {
+  padding:10px;
+}
+
+#upcomingevents .header {
+  color:#6296e4;
+  padding:10px;
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+#upcomingevents .event {
+  color:#6296e4;
+  padding:10px;
+}
+
+#upcomingevents .event .date {
+  font-weight:bold;
+}
+
+#upcomingevents .event .time {
+  font-weight:bold;
+  font-size:12px;
+}
+
+#upcomingevents .event .title {
+  font-weight:bold;
+  font-size:14px;
+}
+
+/* 
+  ROUNDED IMAGES 
+  credit: http://www.elliotswan.com/2006/06/07/rounded-images/
+*/
+
+#imagewrapper a img {
+border: none;
+}
+
+#imagewrapper {
+position: relative;
+float: left;
+}
+
+#imagewrapper span {
+position: absolute;
+z-index: 2;
+height: 12px;
+width: 12px;
+}
+
+.curve1 {
+background: transparent url('images/topright.gif') top right no-repeat;
+top: 0;
+right: 0;
+}
+
+.curve2 {
+background: transparent url(images/topleft.gif) top left no-repeat;
+top: 0;
+left: 0;
+}
+
+.curve3 {
+background: transparent url(images/bottomright.gif) bottom right no-repeat;
+bottom: 0;
+right: 0;
+}
+
+.curve4 {
+background: transparent url(images/bottomleft.gif) bottom left no-repeat;
+bottom: 0;
+left: 0;
+}
+
+#imageset {
+  position: relative;
+  float: left;
+  text-align: center;
+  padding:10px 10px 0 10px;
+}
+
+#imagecaption {
+  position: relative;
+  font-family: Verdana;
+  font-size: 10px;
+  font-weight:bold;
+  padding:5px;
+}
+
+/* CONTACT FORM */
+#contact_form {
+  color: #6296e4;
+}
+
+/* LINKS PAGE */
+.links1 {
+  text-decoration:none;
+  cursor:pointer;
+  font-weight:bold;
+  color: #6296e4;
+}
